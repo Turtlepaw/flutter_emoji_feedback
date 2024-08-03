@@ -34,7 +34,7 @@ class EmojiFeedback extends StatefulWidget {
           }(),
           'emojiPreset and customLabels should have the same length',
         ),
-        assert(emojiPreset.length >= initialRating && initialRating > 0,
+        assert(emojiPreset.length >= initialRating && initialRating >= 0,
             'initialRating should be between 1 and emojiPreset.length');
 
   /// Initial value
