@@ -20,7 +20,7 @@ class EmojiFeedback extends StatefulWidget {
     this.inactiveElementScale,
     this.elementSize,
     this.curve,
-    this.initialRating = 1,
+    this.initialRating = 0,
     this.spaceBetweenItems = 10,
     this.labelPadding = const EdgeInsets.only(top: 5.0),
     this.enableFeedback = false,
